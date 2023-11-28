@@ -3,9 +3,9 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
 $theme-gray: #f6f6f6;
-$theme-black: #333333;
-$theme-primary: #4daaa7;
-$theme-secondary: #3f8f8b;
+$theme-black: #000000;
+$theme-primary: rgb(170, 167, 77);
+$theme-secondary: rgb(142, 139, 71);
 
 @mixin box-shadow {
   box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.1);
@@ -42,6 +42,7 @@ button {
   background-color: $theme-black;
   color: white;
 }
+
 .button-primary {
   background-color: $theme-primary;
   color: white;

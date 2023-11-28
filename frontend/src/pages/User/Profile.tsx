@@ -19,14 +19,6 @@ const Profile = (props: RouteProps) => {
         </button>
       </div>
 
-      <div className="right-panel">
-        <span className="title-small">Profile</span>
-
-        <div className="skeleton"></div>
-        <div className="skeleton"></div>
-        <div className="skeleton"></div>
-        <div className="skeleton"></div>
-      </div>
     </div>
   );
 };

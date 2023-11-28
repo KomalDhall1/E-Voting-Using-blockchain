@@ -24,9 +24,6 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="right">
-        <img src="vote.gif" />
-      </div>
     </div>
   );
 };

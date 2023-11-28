@@ -75,13 +75,12 @@ const Chart = (props: ChartProps) => {
           <div
             style={{
               height: count != 0 ? `${(count * 100) / total}%` : "auto",
-              border: "2px solid #4daaa7",
               display: "flex",
               flexDirection: "column",
               justifyContent: "flex-end",
               alignItems: "center",
               color: "white",
-              backgroundColor: "rgb(77, 170, 167)",
+              backgroundColor: "rgb(170, 167, 77)",
               paddingBottom: 10,
               paddingTop: 10,
             }}
